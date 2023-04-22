@@ -1,0 +1,32 @@
+#home{
+    height: 900px;
+    background: white;
+}
+.logo{
+    color:rgba(227, 27, 227, 0.3) ;
+    font-size: 26px;
+    margin-left: -2px;
+}
+.sidebar{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+
+}
+.sidelist{
+    margin-top: 100px;
+    border-radius: 30px;
+    position: absolute;
+    height: 500px;
+    width: 210px;
+    background: rgba(255, 155, 255, 0.3);
+}
+.rightSidebar{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    display: grid;
+    justify-content: center;
+}

@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(116.12deg, #B9F3FC 5.99%, #72CFFF 42.85%, #FCC2FC 93.83%);
+    /* filter: blur(22px); */
+}
+
+input{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 15px;
+}
+input::placeholder{
+    color: white;
+}
+input:hover{
+    cursor: pointer;
+    box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    background: #FF9DFF;
+    border: 0;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.google_button{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background:black;
+}
+.container {
+    height: 774px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-container {
+    position: absolute;
+    width: 70%;
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.299);
+    border-radius: 30px;
+}
+
+.image1-container {
+    margin-left: 50px;
+    position: relative;
+    background-image: url('/src/components/images/2181616.png');
+    background-size: contain;
+    width: 550px;
+    height: 100%;
+    float: left;
+}
+
+.detail-container {
+    height: 100%;
+    /* display: flex;
+    justify-content: center; */
+    font-family: unset;
+    font-weight: initial;
+}
+.form-content{
+    text-align: center;
+}

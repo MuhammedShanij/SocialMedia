@@ -1,0 +1,19 @@
+.listitems{
+    list-style: none;
+    line-height: 60px;
+    font-size: 15px;
+    margin-left: -15px;
+}
+.menuname{
+    margin-inline-start: 20px;
+    font-family: 'FontAwesome';
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+.list{
+    transition: transform .2s;
+}
+.list:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

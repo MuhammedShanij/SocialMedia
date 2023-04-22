@@ -1,0 +1,46 @@
+.suggestionbar{
+    background: rgba(255, 155, 255, 0.3);
+    border-radius: 30px;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.profilepic1{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: transform .2s;
+}
+.profilepic1:hover{
+    transform: scale(1.1);
+}
+.title1{
+    margin-top: -4px;
+    font-size: 12px;
+    font-family: unset;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    letter-spacing: inherit;
+}
+.profiledet{
+    cursor: pointer;
+    display: flex;
+    /* justify-content: center; */
+}
+.profiletitle{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+.followbtn{
+    color: black;
+    font-size: 12px;
+    width: 62px;
+    height: 22px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
